@@ -117,6 +117,20 @@ user@project$
 user@project$
 ```
 
+### Git Prompt Indicators Explained
+
+| Symbol | Meaning |
+|--------|---------|
+| `*`    | Unstaged changes in working directory |
+| `+`    | Staged changes ready to commit |
+| `?`    | Untracked files present |
+| `!`    | Stashed changes (if enabled) |
+| `↑n`   | Branch is *n* commits ahead of upstream |
+| `↓n`   | Branch is *n* commits behind upstream |
+| `=`    | Branch is equal (in sync) with upstream |
+| `#`    | No HEAD (fresh repository) |
+| `%`    | Repo has untracked files (fresh repository) |
+
 ---
 
 ## ⚙️ Configuration
