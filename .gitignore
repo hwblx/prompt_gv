@@ -1,0 +1,36 @@
+# --- OS files ---
+
+.DS_Store
+Thumbs.db
+
+# --- Editor / IDE ---
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Shell / temp files ---
+
+*.log
+*.tmp
+
+# --- Python virtual environments (for testing prompt) ---
+
+venv/
+.env/
+.venv/
+
+# --- Node (if you ever experiment) ---
+
+node_modules/
+
+# --- Build / packaging (future-proofing) ---
+
+dist/
+build/
+
+# --- Local overrides ---
+
+.local/
