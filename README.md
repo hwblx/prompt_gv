@@ -47,7 +47,7 @@ On most systems, the Git prompt script is located at:
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/prompt.git
+git clone https://github.com/hwblx/prompt_gv.git
 cd prompt_gv
 ```
 
