@@ -9,7 +9,7 @@ A small, fast, and readable Bash prompt that shows:
 
 ---
 
-## ✨ Features
+## Features
 
 * **Git integration**
 
@@ -29,7 +29,7 @@ A small, fast, and readable Bash prompt that shows:
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 * Bash
 * Git (with `git-sh-prompt`, usually included)
@@ -42,7 +42,7 @@ On most systems, the Git prompt script is located at:
 
 ---
 
-## 🚀 Installation
+## Installation
 
 Clone the repository:
 
@@ -65,7 +65,7 @@ source ~/.bashrc
 
 ---
 
-## 🧪 Quick Test (recommended)
+## Quick Test (recommended)
 
 Run a clean Bash session:
 
@@ -81,7 +81,7 @@ source ./prompt_gv.sh
 
 ---
 
-## 🔍 What it looks like
+## What it looks like
 
 ### In a clean directory
 
@@ -133,7 +133,7 @@ user@project$
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 The prompt uses Git’s built-in `__git_ps1` with:
 
@@ -148,7 +148,7 @@ You can tweak these in `prompt.sh`.
 
 ---
 
-## 🛠 Notes
+## Notes
 
 * The script must be **sourced**, not executed:
 
@@ -160,7 +160,7 @@ You can tweak these in `prompt.sh`.
 
 ---
 
-## 🧩 Customization Ideas
+## Customization Ideas
 
 * Change colors (ANSI codes in script)
 * Replace icons (🐍, branch symbol)
@@ -169,7 +169,7 @@ You can tweak these in `prompt.sh`.
 
 ---
 
-## 🐞 Troubleshooting
+## Troubleshooting
 
 ### No Git info showing
 
@@ -199,7 +199,7 @@ set_prompt
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 * Git’s `__git_ps1` prompt helper
 * Inspired by minimal prompt setups and developer workflows
